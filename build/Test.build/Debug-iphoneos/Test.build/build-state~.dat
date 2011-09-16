@@ -1,0 +1,776 @@
+TTest
+v3
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Developer/Test/build/Debug-iphoneos/Test.app/Info.plist Test/Test-Info.plist
+cCpResource /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist build/Debug-iphoneos/Test.app/ResourceRules.plist
+cProcessPCH /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Test-Prefix-hdupqivezywsbrdkyddrlsdyhcdn/Test-Prefix.pch.gch Test/Test-Prefix.pch normal armv6 objective-c com.apple.compilers.llvmgcc42
+cProcessPCH /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Test-Prefix-gbqkijoznhylcohbjxvycelksknz/Test-Prefix.pch.gch Test/Test-Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv6/main.o /Developer/Test/Test/main.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv6/MapViewController.o /Developer/Test/Test/../MapViewController.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv6/TestViewController.o /Developer/Test/Test/TestViewController.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv6/TestAppDelegate.o /Developer/Test/Test/TestAppDelegate.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv6/ImageNavigationBar.o /Developer/Test/Test/ImageNavigationBar.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv6/BaseViewController.o /Developer/Test/Test/BaseViewController.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv6/ProfileViewController.o /Developer/Test/Test/ProfileViewController.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv7/main.o /Developer/Test/Test/main.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv7/TestViewController.o /Developer/Test/Test/TestViewController.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv7/TestAppDelegate.o /Developer/Test/Test/TestAppDelegate.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv7/ImageNavigationBar.o /Developer/Test/Test/ImageNavigationBar.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cLd /Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv6/Test normal armv6
+cCompileC build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv7/BaseViewController.o /Developer/Test/Test/BaseViewController.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv7/MapViewController.o /Developer/Test/Test/../MapViewController.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv7/ProfileViewController.o /Developer/Test/Test/ProfileViewController.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cLd /Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv7/Test normal armv7
+cCreateUniversalBinary /Developer/Test/build/Debug-iphoneos/Test.app/Test normal "armv6 armv7"
+cGenerateDSYMFile /Developer/Test/build/Debug-iphoneos/Test.app.dSYM /Developer/Test/build/Debug-iphoneos/Test.app/Test
+cCompileXIB /Developer/Test/Test/en.lproj/MainWindow.xib
+cCompileXIB /Developer/Test/Test/en.lproj/TestViewController.xib
+cCopyStringsFile /Developer/Test/build/Debug-iphoneos/Test.app/en.lproj/InfoPlist.strings Test/en.lproj/InfoPlist.strings
+cCompileXIB /Developer/Test/Test/../CustomNavigationBar.xib
+cCompileXIB /Developer/Test/Test/../MapViewController.xib
+cCompileXIB /Developer/Test/Test/ProfileViewController.xib
+cCopyPNGFile /Developer/Test/build/Debug-iphoneos/Test.app/gradient.png Test/gradient.png
+cProcessProductPackaging "/Users/aditya15417/Library/MobileDevice/Provisioning Profiles/03022131-34A8-47F6-B64D-506EBEBF069A.mobileprovision" /Developer/Test/build/Debug-iphoneos/Test.app/embedded.mobileprovision
+cProcessProductPackaging "/Users/aditya15417/Library/MobileDevice/Provisioning Profiles/03022131-34A8-47F6-B64D-506EBEBF069A.mobileprovision" /Developer/Test/build/Debug-iphoneos/Test.app/embedded.mobileprovision
+cTouch /Developer/Test/build/Debug-iphoneos/Test.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist /Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test.xcent
+cCodeSign /Developer/Test/build/Debug-iphoneos/Test.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
+c000000004E2732380000000000000110
+t1311191608
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+c000000004D4F6A4700000000000001A7
+t1297050183
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+c000000004D4F6A4700000000000001E5
+t1297050183
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D93E13C00000000003532B0
+t1301537084
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D93E1FD00000000003E22F0
+t1301537277
+s4072176
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D93E1E60000000000001466
+t1301537254
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D99FA7C0000000000000AA1
+t1301936764
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D99FAFA0000000000CA2AE0
+t1301936890
+s13249248
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/Availability.h
+c000000004D4F74C20000000000001B19
+t1297052866
+s6937
+
+N/Developer/Test/CustomNavigationBar.xib
+c000000004E72E546000000000000259D
+t1316152646
+s9629
+
+N/Developer/Test/MapViewController.h
+c000000004E72E97E00000000000000E6
+t1316153726
+s230
+i<UIKit/UIKit.h>
+
+N/Developer/Test/MapViewController.m
+c000000004E72E97E0000000000000481
+t1316153726
+s1153
+i"MapViewController.h"
+
+N/Developer/Test/MapViewController.xib
+c000000004E72E97E000000000000186E
+t1316153726
+s6254
+
+N/Developer/Test/Test/../CustomNavigationBar.xib
+c000000004E72E546000000000000259D
+t1316152646
+s9629
+
+N/Developer/Test/Test/../MapViewController.m
+c000000004E72E97E0000000000000481
+t1316153726
+s1153
+i"MapViewController.h"
+
+N/Developer/Test/Test/../MapViewController.xib
+c000000004E72E9EE0000000000001DED
+t1316153838
+s7661
+
+N/Developer/Test/Test/BaseViewController.h
+c000000004E72E7D500000000000005A1
+t1316153301
+s1441
+
+N/Developer/Test/Test/BaseViewController.m
+c000000004E72E7EC0000000000000BE2
+t1316153324
+s3042
+i"BaseViewController.h"
+
+N/Developer/Test/Test/ImageNavigationBar.h
+c000000004E6464F30000000000000135
+t1315202291
+s309
+i<UIKit/UIKit.h>
+
+N/Developer/Test/Test/ImageNavigationBar.m
+c000000004E71972E0000000000000212
+t1316067118
+s530
+i"ImageNavigationBar.h"
+
+N/Developer/Test/Test/ProfileViewController.h
+c000000004E72E9B800000000000000EE
+t1316153784
+s238
+i<UIKit/UIKit.h>
+
+N/Developer/Test/Test/ProfileViewController.m
+c000000004E72E9B8000000000000048D
+t1316153784
+s1165
+i"ProfileViewController.h"
+
+N/Developer/Test/Test/ProfileViewController.xib
+c000000004E72EA02000000000000208B
+t1316153858
+s8331
+
+N/Developer/Test/Test/Test-Prefix.pch
+c000000004E72E836000000000000013A
+t1316153398
+s314
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Developer/Test/Test/TestAppDelegate.h
+c000000004E72E96900000000000001B4
+t1316153705
+s436
+i<UIKit/UIKit.h>
+
+N/Developer/Test/Test/TestAppDelegate.m
+c000000004E72EA150000000000000E78
+t1316153877
+s3704
+i"TestAppDelegate.h"
+i"TestViewController.h"
+
+N/Developer/Test/Test/TestViewController.h
+c000000004E72E83600000000000000E8
+t1316153398
+s232
+i<UIKit/UIKit.h>
+
+N/Developer/Test/Test/TestViewController.m
+c000000004E72E83600000000000003BF
+t1316153398
+s959
+i"TestViewController.h"
+
+N/Developer/Test/Test/en.lproj/InfoPlist.strings
+c000000004E72E836000000000000002D
+t1316153398
+s45
+
+N/Developer/Test/Test/en.lproj/MainWindow.xib
+c000000004E72E8360000000000004DF5
+t1316153398
+s19957
+
+N/Developer/Test/Test/en.lproj/TestViewController.xib
+c000000004E72E8360000000000001A31
+t1316153398
+s6705
+
+N/Developer/Test/Test/gradient.png
+c000000004E64FCCA00000000000000DA
+t1315241162
+s218
+
+N/Developer/Test/Test/main.m
+c000000004E72E8360000000000000169
+t1316153398
+s361
+i<UIKit/UIKit.h>
+
+N/Developer/Test/build/Debug-iphoneos/Test.app
+t2
+s0
+
+N/Developer/Test/build/Debug-iphoneos/Test.app.dSYM
+t2
+s0
+
+N/Developer/Test/build/Debug-iphoneos/Test.app/CustomNavigationBar.nib
+t2
+s0
+
+N/Developer/Test/build/Debug-iphoneos/Test.app/Info.plist
+t2
+s0
+
+N/Developer/Test/build/Debug-iphoneos/Test.app/MapViewController.nib
+t2
+s0
+
+N/Developer/Test/build/Debug-iphoneos/Test.app/PkgInfo
+t2
+s0
+
+N/Developer/Test/build/Debug-iphoneos/Test.app/ProfileViewController.nib
+t2
+s0
+
+N/Developer/Test/build/Debug-iphoneos/Test.app/ResourceRules.plist
+t2
+s0
+
+N/Developer/Test/build/Debug-iphoneos/Test.app/Test
+t2
+s0
+
+N/Developer/Test/build/Debug-iphoneos/Test.app/embedded.mobileprovision
+t2
+s0
+
+N/Developer/Test/build/Debug-iphoneos/Test.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Developer/Test/build/Debug-iphoneos/Test.app/en.lproj/MainWindow.nib
+t2
+s0
+
+N/Developer/Test/build/Debug-iphoneos/Test.app/en.lproj/TestViewController.nib
+t2
+s0
+
+N/Developer/Test/build/Debug-iphoneos/Test.app/gradient.png
+t2
+s0
+
+N/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv6/BaseViewController.o
+t2
+s0
+
+N/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv6/ImageNavigationBar.o
+t2
+s0
+
+N/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv6/MapViewController.o
+t2
+s0
+
+N/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv6/ProfileViewController.o
+t2
+s0
+
+N/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv6/Test
+t2
+s0
+
+N/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv6/Test.LinkFileList
+c000000004E72EA4A00000000000002B4
+t1316153930
+s692
+
+N/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv6/TestAppDelegate.o
+t2
+s0
+
+N/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv6/TestViewController.o
+t2
+s0
+
+N/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv6/main.o
+t2
+s0
+
+N/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv7/BaseViewController.o
+t2
+s0
+
+N/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv7/ImageNavigationBar.o
+t2
+s0
+
+N/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv7/MapViewController.o
+t2
+s0
+
+N/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv7/ProfileViewController.o
+t2
+s0
+
+N/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv7/Test
+t2
+s0
+
+N/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv7/Test.LinkFileList
+c000000004E72EA4A00000000000002B4
+t1316153930
+s692
+
+N/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv7/TestAppDelegate.o
+t2
+s0
+
+N/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv7/TestViewController.o
+t2
+s0
+
+N/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test.xcent
+t2
+s0
+
+N/Users/aditya15417/Library/MobileDevice/Provisioning Profiles/03022131-34A8-47F6-B64D-506EBEBF069A.mobileprovision
+c000000004E40374200000000000020B3
+t1312831298
+s8371
+
+N/var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Test-Prefix-gbqkijoznhylcohbjxvycelksknz/Test-Prefix.pch.gch
+t1312610343
+s8431516
+
+N/var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Test-Prefix-hdupqivezywsbrdkyddrlsdyhcdn/Test-Prefix.pch.gch
+t1312610343
+s7931804
+
+NTest/Test-Info.plist
+c000000004E72E83600000000000004A8
+t1316153398
+s1192
+
+CBuild AST from /Developer/Test/MapViewController.m
+r0
+
+CBuild AST from /Developer/Test/Test/../MapViewController.m
+r0
+
+CBuild AST from /Developer/Test/Test/BaseViewController.m
+r0
+
+CBuild AST from /Developer/Test/Test/ImageNavigationBar.m
+r0
+
+CBuild AST from /Developer/Test/Test/ProfileViewController.m
+r0
+
+CBuild AST from /Developer/Test/Test/TestAppDelegate.m
+r0
+
+CBuild AST from /Developer/Test/Test/TestViewController.m
+r0
+
+CBuild AST from /Developer/Test/Test/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies85ed77ca2123b441^0c3da2ca2123b441^---0#1#0#--18"Check dependencies
+
+CCodeSign /Developer/Test/build/Debug-iphoneos/Test.app
+s337846738.718905
+e337846740.150869
+r1
+xCodeSign
+x/Developer/Test/build/Debug-iphoneos/Test.app
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"CodeSign build/Debug-iphoneos/Test.appa723b8d22123b441^0a9e26d42123b441^---0#0#0#-19%DVTDocumentLocation2@62"file://localhost/Developer/Test/build/Debug-iphoneos/Test.app/0000000000000000^592"CodeSign build/Debug-iphoneos/Test.app    cd /Developer/Test    setenv CODESIGN_ALLOCATE /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign "iPhone Developer: Aditya Herlambang (4XAK25RS9T)" --resource-rules=/Developer/Test/build/Debug-iphoneos/Test.app/ResourceRules.plist --entitlements /Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test.xcent /Developer/Test/build/Debug-iphoneos/Test.app
+
+CCompileC build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv6/BaseViewController.o /Developer/Test/Test/BaseViewController.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s337846732.715486
+e337846732.809724
+r1
+xCompileC
+xbuild/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv6/BaseViewController.o
+x/Developer/Test/Test/BaseViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Compile /Developer/Test/Test/BaseViewController.m7a51b7cc2123b441^8257cfcc2123b441^---0#0#0#-19%DVTDocumentLocation2@57"file://localhost/Developer/Test/Test/BaseViewController.m0000000000000000^1633"CompileC build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv6/BaseViewController.o Test/BaseViewController.m normal armv6 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-generated-files.hmap -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-own-target-headers.hmap -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-all-target-headers.hmap -iquote /Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-project-headers.hmap -I/Developer/Test/build/Debug-iphoneos/include -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/DerivedSources/armv6 -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/DerivedSources -F/Developer/Test/build/Debug-iphoneos -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Test-Prefix-hdupqivezywsbrdkyddrlsdyhcdn/Test-Prefix.pch -c /Developer/Test/Test/BaseViewController.m -o /Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv6/BaseViewController.o
+
+CCompileC build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv6/ImageNavigationBar.o /Developer/Test/Test/ImageNavigationBar.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s337846732.715475
+e337846732.850215
+r1
+xCompileC
+xbuild/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv6/ImageNavigationBar.o
+x/Developer/Test/Test/ImageNavigationBar.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Compile /Developer/Test/Test/ImageNavigationBar.mc45bb7cc2123b441^caa5d9cc2123b441^---0#0#0#-19%DVTDocumentLocation2@57"file://localhost/Developer/Test/Test/ImageNavigationBar.m0000000000000000^1633"CompileC build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv6/ImageNavigationBar.o Test/ImageNavigationBar.m normal armv6 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-generated-files.hmap -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-own-target-headers.hmap -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-all-target-headers.hmap -iquote /Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-project-headers.hmap -I/Developer/Test/build/Debug-iphoneos/include -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/DerivedSources/armv6 -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/DerivedSources -F/Developer/Test/build/Debug-iphoneos -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Test-Prefix-hdupqivezywsbrdkyddrlsdyhcdn/Test-Prefix.pch -c /Developer/Test/Test/ImageNavigationBar.m -o /Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv6/ImageNavigationBar.o
+
+CCompileC build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv6/MapViewController.o /Developer/Test/Test/../MapViewController.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s337846732.309924
+e337846732.715192
+r1
+xCompileC
+xbuild/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv6/MapViewController.o
+x/Developer/Test/Test/../MapViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Compile /Developer/Test/Test/../MapViewController.m27834fcc2123b441^9415b7cc2123b441^---0#0#0#-19%DVTDocumentLocation2@59"file://localhost/Developer/Test/Test/../MapViewController.m0000000000000000^1635"CompileC build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv6/MapViewController.o Test/../MapViewController.m normal armv6 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-generated-files.hmap -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-own-target-headers.hmap -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-all-target-headers.hmap -iquote /Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-project-headers.hmap -I/Developer/Test/build/Debug-iphoneos/include -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/DerivedSources/armv6 -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/DerivedSources -F/Developer/Test/build/Debug-iphoneos -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Test-Prefix-hdupqivezywsbrdkyddrlsdyhcdn/Test-Prefix.pch -c /Developer/Test/Test/../MapViewController.m -o /Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv6/MapViewController.o
+
+CCompileC build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv6/ProfileViewController.o /Developer/Test/Test/ProfileViewController.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s337846732.797379
+e337846732.947220
+r1
+xCompileC
+xbuild/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv6/ProfileViewController.o
+x/Developer/Test/Test/ProfileViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Compile /Developer/Test/Test/ProfileViewController.m3046cccc2123b441^3e7bf2cc2123b441^---0#0#0#-19%DVTDocumentLocation2@60"file://localhost/Developer/Test/Test/ProfileViewController.m0000000000000000^1645"CompileC build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv6/ProfileViewController.o Test/ProfileViewController.m normal armv6 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-generated-files.hmap -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-own-target-headers.hmap -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-all-target-headers.hmap -iquote /Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-project-headers.hmap -I/Developer/Test/build/Debug-iphoneos/include -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/DerivedSources/armv6 -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/DerivedSources -F/Developer/Test/build/Debug-iphoneos -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Test-Prefix-hdupqivezywsbrdkyddrlsdyhcdn/Test-Prefix.pch -c /Developer/Test/Test/ProfileViewController.m -o /Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv6/ProfileViewController.o
+
+CCompileC build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv6/TestAppDelegate.o /Developer/Test/Test/TestAppDelegate.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s337846732.666679
+e337846732.795989
+r1
+xCompileC
+xbuild/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv6/TestAppDelegate.o
+x/Developer/Test/Test/TestAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Compile /Developer/Test/Test/TestAppDelegate.m46ceaacc2123b441^1ac4cbcc2123b441^---0#0#0#-19%DVTDocumentLocation2@54"file://localhost/Developer/Test/Test/TestAppDelegate.m0000000000000000^1621"CompileC build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv6/TestAppDelegate.o Test/TestAppDelegate.m normal armv6 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-generated-files.hmap -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-own-target-headers.hmap -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-all-target-headers.hmap -iquote /Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-project-headers.hmap -I/Developer/Test/build/Debug-iphoneos/include -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/DerivedSources/armv6 -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/DerivedSources -F/Developer/Test/build/Debug-iphoneos -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Test-Prefix-hdupqivezywsbrdkyddrlsdyhcdn/Test-Prefix.pch -c /Developer/Test/Test/TestAppDelegate.m -o /Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv6/TestAppDelegate.o
+
+CCompileC build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv6/TestViewController.o /Developer/Test/Test/TestViewController.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s337846732.309943
+e337846732.714023
+r1
+xCompileC
+xbuild/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv6/TestViewController.o
+x/Developer/Test/Test/TestViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Compile /Developer/Test/Test/TestViewController.me17f4fcc2123b441^e3c5b6cc2123b441^---0#0#0#-19%DVTDocumentLocation2@57"file://localhost/Developer/Test/Test/TestViewController.m0000000000000000^1633"CompileC build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv6/TestViewController.o Test/TestViewController.m normal armv6 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-generated-files.hmap -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-own-target-headers.hmap -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-all-target-headers.hmap -iquote /Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-project-headers.hmap -I/Developer/Test/build/Debug-iphoneos/include -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/DerivedSources/armv6 -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/DerivedSources -F/Developer/Test/build/Debug-iphoneos -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Test-Prefix-hdupqivezywsbrdkyddrlsdyhcdn/Test-Prefix.pch -c /Developer/Test/Test/TestViewController.m -o /Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv6/TestViewController.o
+
+CCompileC build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv6/main.o /Developer/Test/Test/main.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s337846732.309897
+e337846732.665324
+r1
+xCompileC
+xbuild/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv6/main.o
+x/Developer/Test/Test/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection35"Compile /Developer/Test/Test/main.m6b7f4fcc2123b441^0951aacc2123b441^---0#0#0#-19%DVTDocumentLocation2@43"file://localhost/Developer/Test/Test/main.m0000000000000000^1577"CompileC build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv6/main.o Test/main.m normal armv6 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-generated-files.hmap -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-own-target-headers.hmap -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-all-target-headers.hmap -iquote /Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-project-headers.hmap -I/Developer/Test/build/Debug-iphoneos/include -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/DerivedSources/armv6 -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/DerivedSources -F/Developer/Test/build/Debug-iphoneos -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Test-Prefix-hdupqivezywsbrdkyddrlsdyhcdn/Test-Prefix.pch -c /Developer/Test/Test/main.m -o /Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv6/main.o
+
+CCompileC build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv7/BaseViewController.o /Developer/Test/Test/BaseViewController.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s337846733.057211
+e337846733.205902
+r1
+xCompileC
+xbuild/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv7/BaseViewController.o
+x/Developer/Test/Test/BaseViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Compile /Developer/Test/Test/BaseViewController.m3a3f15cd2123b441^24b534cd2123b441^---0#0#0#-19%DVTDocumentLocation2@57"file://localhost/Developer/Test/Test/BaseViewController.m0000000000000000^1633"CompileC build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv7/BaseViewController.o Test/BaseViewController.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-generated-files.hmap -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-own-target-headers.hmap -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-all-target-headers.hmap -iquote /Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-project-headers.hmap -I/Developer/Test/build/Debug-iphoneos/include -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/DerivedSources/armv7 -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/DerivedSources -F/Developer/Test/build/Debug-iphoneos -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Test-Prefix-gbqkijoznhylcohbjxvycelksknz/Test-Prefix.pch -c /Developer/Test/Test/BaseViewController.m -o /Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv7/BaseViewController.o
+
+CCompileC build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv7/ImageNavigationBar.o /Developer/Test/Test/ImageNavigationBar.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s337846732.948677
+e337846733.082885
+r1
+xCompileC
+xbuild/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv7/ImageNavigationBar.o
+x/Developer/Test/Test/ImageNavigationBar.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Compile /Developer/Test/Test/ImageNavigationBar.mba14f3cc2123b441^543915cd2123b441^---0#0#0#-19%DVTDocumentLocation2@57"file://localhost/Developer/Test/Test/ImageNavigationBar.m0000000000000000^1633"CompileC build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv7/ImageNavigationBar.o Test/ImageNavigationBar.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-generated-files.hmap -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-own-target-headers.hmap -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-all-target-headers.hmap -iquote /Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-project-headers.hmap -I/Developer/Test/build/Debug-iphoneos/include -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/DerivedSources/armv7 -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/DerivedSources -F/Developer/Test/build/Debug-iphoneos -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Test-Prefix-gbqkijoznhylcohbjxvycelksknz/Test-Prefix.pch -c /Developer/Test/Test/ImageNavigationBar.m -o /Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv7/ImageNavigationBar.o
+
+CCompileC build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv7/MapViewController.o /Developer/Test/MapViewController.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv7/MapViewController.o /Developer/Test/Test/../MapViewController.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s337846733.085351
+e337846733.189919
+r1
+xCompileC
+xbuild/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv7/MapViewController.o
+x/Developer/Test/Test/../MapViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Compile /Developer/Test/Test/../MapViewController.m45f215cd2123b441^bea130cd2123b441^---0#0#0#-19%DVTDocumentLocation2@59"file://localhost/Developer/Test/Test/../MapViewController.m0000000000000000^1635"CompileC build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv7/MapViewController.o Test/../MapViewController.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-generated-files.hmap -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-own-target-headers.hmap -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-all-target-headers.hmap -iquote /Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-project-headers.hmap -I/Developer/Test/build/Debug-iphoneos/include -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/DerivedSources/armv7 -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/DerivedSources -F/Developer/Test/build/Debug-iphoneos -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Test-Prefix-gbqkijoznhylcohbjxvycelksknz/Test-Prefix.pch -c /Developer/Test/Test/../MapViewController.m -o /Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv7/MapViewController.o
+
+CCompileC build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv7/ProfileViewController.o /Developer/Test/Test/ProfileViewController.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s337846733.108847
+e337846733.202757
+r1
+xCompileC
+xbuild/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv7/ProfileViewController.o
+x/Developer/Test/Test/ProfileViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Compile /Developer/Test/Test/ProfileViewController.m81051ccd2123b441^110034cd2123b441^---0#0#0#-19%DVTDocumentLocation2@60"file://localhost/Developer/Test/Test/ProfileViewController.m0000000000000000^1645"CompileC build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv7/ProfileViewController.o Test/ProfileViewController.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-generated-files.hmap -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-own-target-headers.hmap -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-all-target-headers.hmap -iquote /Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-project-headers.hmap -I/Developer/Test/build/Debug-iphoneos/include -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/DerivedSources/armv7 -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/DerivedSources -F/Developer/Test/build/Debug-iphoneos -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Test-Prefix-gbqkijoznhylcohbjxvycelksknz/Test-Prefix.pch -c /Developer/Test/Test/ProfileViewController.m -o /Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv7/ProfileViewController.o
+
+CCompileC build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv7/TestAppDelegate.o /Developer/Test/Test/TestAppDelegate.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s337846732.913097
+e337846733.107425
+r1
+xCompileC
+xbuild/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv7/TestAppDelegate.o
+x/Developer/Test/Test/TestAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Compile /Developer/Test/Test/TestAppDelegate.maddee9cc2123b441^d47e1bcd2123b441^---0#0#0#-19%DVTDocumentLocation2@54"file://localhost/Developer/Test/Test/TestAppDelegate.m0000000000000000^1621"CompileC build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv7/TestAppDelegate.o Test/TestAppDelegate.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-generated-files.hmap -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-own-target-headers.hmap -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-all-target-headers.hmap -iquote /Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-project-headers.hmap -I/Developer/Test/build/Debug-iphoneos/include -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/DerivedSources/armv7 -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/DerivedSources -F/Developer/Test/build/Debug-iphoneos -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Test-Prefix-gbqkijoznhylcohbjxvycelksknz/Test-Prefix.pch -c /Developer/Test/Test/TestAppDelegate.m -o /Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv7/TestAppDelegate.o
+
+CCompileC build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv7/TestViewController.o /Developer/Test/Test/TestViewController.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s337846732.913080
+e337846733.036741
+r1
+xCompileC
+xbuild/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv7/TestViewController.o
+x/Developer/Test/Test/TestViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Compile /Developer/Test/Test/TestViewController.mcedee9cc2123b441^05a809cd2123b441^---0#0#0#-19%DVTDocumentLocation2@57"file://localhost/Developer/Test/Test/TestViewController.m0000000000000000^1633"CompileC build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv7/TestViewController.o Test/TestViewController.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-generated-files.hmap -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-own-target-headers.hmap -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-all-target-headers.hmap -iquote /Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-project-headers.hmap -I/Developer/Test/build/Debug-iphoneos/include -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/DerivedSources/armv7 -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/DerivedSources -F/Developer/Test/build/Debug-iphoneos -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Test-Prefix-gbqkijoznhylcohbjxvycelksknz/Test-Prefix.pch -c /Developer/Test/Test/TestViewController.m -o /Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv7/TestViewController.o
+
+CCompileC build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv7/main.o /Developer/Test/Test/main.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s337846732.912896
+e337846733.007053
+r1
+xCompileC
+xbuild/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv7/main.o
+x/Developer/Test/Test/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection35"Compile /Developer/Test/Test/main.mdbdbe9cc2123b441^48e201cd2123b441^---0#0#0#-19%DVTDocumentLocation2@43"file://localhost/Developer/Test/Test/main.m0000000000000000^1577"CompileC build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv7/main.o Test/main.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-generated-files.hmap -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-own-target-headers.hmap -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-all-target-headers.hmap -iquote /Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-project-headers.hmap -I/Developer/Test/build/Debug-iphoneos/include -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/DerivedSources/armv7 -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/DerivedSources -F/Developer/Test/build/Debug-iphoneos -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Test-Prefix-gbqkijoznhylcohbjxvycelksknz/Test-Prefix.pch -c /Developer/Test/Test/main.m -o /Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv7/main.o
+
+CCompileXIB /Developer/Test/CustomNavigationBar.xib
+r0
+
+CCompileXIB /Developer/Test/MapViewController.xib
+r0
+
+CCompileXIB /Developer/Test/Test/../CustomNavigationBar.xib
+s337846734.413309
+e337846738.426725
+r1
+xCompileXIB
+x/Developer/Test/Test/../CustomNavigationBar.xib
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Compiling /Developer/Test/Test/../CustomNavigationBar.xibe3e169ce2123b441^cd3c6dd22123b441^---0#0#0#-19%DVTDocumentLocation2@63"file://localhost/Developer/Test/Test/../CustomNavigationBar.xib0000000000000000^548"CompileXIB Test/../CustomNavigationBar.xib    cd /Developer/Test    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Developer/Test/build/Debug-iphoneos/Test.app/CustomNavigationBar.nib /Developer/Test/Test/../CustomNavigationBar.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
+
+CCompileXIB /Developer/Test/Test/../MapViewController.xib
+s337846734.425398
+e337846738.521607
+r1
+xCompileXIB
+x/Developer/Test/Test/../MapViewController.xib
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Compiling /Developer/Test/Test/../MapViewController.xib3b016dce2123b441^859685d22123b441^---0#0#0#-19%DVTDocumentLocation2@61"file://localhost/Developer/Test/Test/../MapViewController.xib0000000000000000^542"CompileXIB Test/../MapViewController.xib    cd /Developer/Test    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Developer/Test/build/Debug-iphoneos/Test.app/MapViewController.nib /Developer/Test/Test/../MapViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
+
+CCompileXIB /Developer/Test/Test/ProfileViewController.xib
+s337846734.585357
+e337846734.896697
+r1
+xCompileXIB
+x/Developer/Test/Test/ProfileViewController.xib
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Compiling /Developer/Test/Test/ProfileViewController.xibecf695ce2123b441^cb9de5ce2123b441^---0#0#0#-19%DVTDocumentLocation2@62"file://localhost/Developer/Test/Test/ProfileViewController.xib0000000000000000^548"CompileXIB Test/ProfileViewController.xib    cd /Developer/Test    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Developer/Test/build/Debug-iphoneos/Test.app/ProfileViewController.nib /Developer/Test/Test/ProfileViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
+
+CCompileXIB /Developer/Test/Test/en.lproj/MainWindow.xib
+s337846734.412691
+e337846734.583782
+r1
+xCompileXIB
+x/Developer/Test/Test/en.lproj/MainWindow.xib
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Compiling /Developer/Test/Test/en.lproj/MainWindow.xibd2c269ce2123b441^6b8195ce2123b441^---0#0#0#-19%DVTDocumentLocation2@60"file://localhost/Developer/Test/Test/en.lproj/MainWindow.xib0000000000000000^542"CompileXIB Test/en.lproj/MainWindow.xib    cd /Developer/Test    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Developer/Test/build/Debug-iphoneos/Test.app/en.lproj/MainWindow.nib /Developer/Test/Test/en.lproj/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
+
+CCompileXIB /Developer/Test/Test/en.lproj/TestViewController.xib
+s337846734.412700
+e337846734.896769
+r1
+xCompileXIB
+x/Developer/Test/Test/en.lproj/TestViewController.xib
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compiling /Developer/Test/Test/en.lproj/TestViewController.xib51c169ce2123b441^fca5e5ce2123b441^---0#0#0#-19%DVTDocumentLocation2@68"file://localhost/Developer/Test/Test/en.lproj/TestViewController.xib0000000000000000^566"CompileXIB Test/en.lproj/TestViewController.xib    cd /Developer/Test    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Developer/Test/build/Debug-iphoneos/Test.app/en.lproj/TestViewController.nib /Developer/Test/Test/en.lproj/TestViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
+
+CCopyPNGFile /Developer/Test/build/Debug-iphoneos/Test.app/gradient.png Test/gradient.png
+s337846734.901902
+e337846735.669707
+r1
+xCopyPNGFile
+x/Developer/Test/build/Debug-iphoneos/Test.app/gradient.png
+xTest/gradient.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"CopyPNGFile build/Debug-iphoneos/Test.app/gradient.png Test/gradient.png33fde6ce2123b441^8b70abcf2123b441^---0#0#0#-19%DVTDocumentLocation2@49"file://localhost/Developer/Test/Test/gradient.png0000000000000000^476"CopyPNGFile build/Debug-iphoneos/Test.app/gradient.png Test/gradient.png    cd /Developer/Test    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Developer/Test/Test/gradient.png /Developer/Test/build/Debug-iphoneos/Test.app/gradient.png
+
+CCopyStringsFile /Developer/Test/build/Debug-iphoneos/Test.app/en.lproj/InfoPlist.strings Test/en.lproj/InfoPlist.strings
+s337846734.412709
+e337846734.424048
+r1
+xCopyStringsFile
+x/Developer/Test/build/Debug-iphoneos/Test.app/en.lproj/InfoPlist.strings
+xTest/en.lproj/InfoPlist.strings
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Copy Test/en.lproj/InfoPlist.stringsdfc369ce2123b441^ea976cce2123b441^---0#0#0#-19%DVTDocumentLocation2@63"file://localhost/Developer/Test/Test/en.lproj/InfoPlist.strings0000000000000000^432"CopyStringsFile build/Debug-iphoneos/Test.app/en.lproj/InfoPlist.strings Test/en.lproj/InfoPlist.strings    cd /Developer/Test    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Developer/Test/build/Debug-iphoneos/Test.app/en.lproj -- Test/en.lproj/InfoPlist.strings
+
+CCpResource /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist build/Debug-iphoneos/Test.app/ResourceRules.plist
+s337846730.671910
+e337846730.723224
+r1
+xCpResource
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+xbuild/Debug-iphoneos/Test.app/ResourceRules.plist
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/Debug-iphoneos/Test.app/ResourceRules.plistc215acca2123b441^0dc1c1ca2123b441^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Developer/Test/build/Debug-iphoneos/Test.app/ResourceRules.plist00f43803dfffdf42^533"CpResource /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist build/Debug-iphoneos/Test.app/ResourceRules.plist    cd /Developer/Test    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist /Developer/Test/build/Debug-iphoneos/Test.app
+
+CCreateUniversalBinary /Developer/Test/build/Debug-iphoneos/Test.app/Test normal "armv6 armv7"
+s337846733.974658
+e337846734.012960
+r1
+xCreateUniversalBinary
+x/Developer/Test/build/Debug-iphoneos/Test.app/Test
+xnormal
+xarmv6 armv7
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Create universal binary /Developer/Test/build/Debug-iphoneos/Test.app/Test8596f9cd2123b441^1aa20ece2123b441^---0#0#0#-19%DVTDocumentLocation2@66"file://localhost/Developer/Test/build/Debug-iphoneos/Test.app/Test00f43803dfffdf42^480"CreateUniversalBinary build/Debug-iphoneos/Test.app/Test normal "armv6 armv7"    cd /Developer/Test    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv6/Test /Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv7/Test -output /Developer/Test/build/Debug-iphoneos/Test.app/Test
+
+CGenerateDSYMFile /Developer/Test/build/Debug-iphoneos/Test.app.dSYM /Developer/Test/build/Debug-iphoneos/Test.app/Test
+s337846734.020984
+e337846734.404747
+r1
+xGenerateDSYMFile
+x/Developer/Test/build/Debug-iphoneos/Test.app.dSYM
+x/Developer/Test/build/Debug-iphoneos/Test.app/Test
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Generating /Developer/Test/build/Debug-iphoneos/Test.app.dSYM5c7105ce2123b441^309c67ce2123b441^---0#0#0#-19%DVTDocumentLocation2@66"file://localhost/Developer/Test/build/Debug-iphoneos/Test.app.dSYM00f43803dfffdf42^371"GenerateDSYMFile build/Debug-iphoneos/Test.app.dSYM build/Debug-iphoneos/Test.app/Test    cd /Developer/Test    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Developer/Test/build/Debug-iphoneos/Test.app/Test -o /Developer/Test/build/Debug-iphoneos/Test.app.dSYM
+
+CLd /Developer/Test/build/Debug-iphoneos/Test.app/Test normal armv7
+r0
+
+CLd /Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv6/Test normal armv6
+s337846733.008522
+e337846733.967058
+r1
+xLd
+x/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv6/Test
+xnormal
+xarmv6
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Link /Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv6/Test405002cd2123b441^179f0ece2123b441^---0#0#0#--816"Ld build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv6/Test normal armv6    cd /Developer/Test    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Developer/Test/build/Debug-iphoneos -F/Developer/Test/build/Debug-iphoneos -filelist /Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv6/Test.LinkFileList -dead_strip -miphoneos-version-min=4.3 -framework UIKit -framework Foundation -framework CoreGraphics -o /Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv6/Test
+
+CLd /Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv7/Test normal armv7
+s337846733.212716
+e337846733.966444
+r1
+xLd
+x/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv7/Test
+xnormal
+xarmv7
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Link /Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv7/Test9a9436cd2123b441^fe980ece2123b441^---0#0#0#--816"Ld build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv7/Test normal armv7    cd /Developer/Test    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Developer/Test/build/Debug-iphoneos -F/Developer/Test/build/Debug-iphoneos -filelist /Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv7/Test.LinkFileList -dead_strip -miphoneos-version-min=4.3 -framework UIKit -framework Foundation -framework CoreGraphics -o /Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv7/Test
+
+CProcessInfoPlistFile /Developer/Test/build/Debug-iphoneos/Test.app/Info.plist Test/Test-Info.plist
+s337846730.671912
+e337846730.747636
+r1
+xProcessInfoPlistFile
+x/Developer/Test/build/Debug-iphoneos/Test.app/Info.plist
+xTest/Test-Info.plist
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Process Test/Test-Info.plist7f15acca2123b441^78d3c1ca2123b441^---0#0#0#-19%DVTDocumentLocation2@52"file://localhost/Developer/Test/Test/Test-Info.plist0000000000000000^546"ProcessInfoPlistFile build/Debug-iphoneos/Test.app/Info.plist Test/Test-Info.plist    cd /Developer/Test    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Test/Test-Info.plist -genpkginfo /Developer/Test/build/Debug-iphoneos/Test.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Developer/Test/build/Debug-iphoneos/Test.app/ResourceRules.plist -o /Developer/Test/build/Debug-iphoneos/Test.app/Info.plist
+
+CProcessPCH /Users/aditya15417/Library/Developer/Xcode/DerivedData/Test-ffezopifgmgrjzbmorlmtndtrvta/Index/PrecompiledHeaders/Test-Prefix-chquvuhqbrhjkqcnisqepcevwwrg_ast/Test-Prefix.pch.pth Test/Test-Prefix.pch normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/aditya15417/Library/Developer/Xcode/DerivedData/Test-ffezopifgmgrjzbmorlmtndtrvta/Index/PrecompiledHeaders/Test-Prefix-ezwgotmnjouqrcaxramaqvysmotv_ast/Test-Prefix.pch.pth Test/Test-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Test-Prefix-gbqkijoznhylcohbjxvycelksknz/Test-Prefix.pch.gch Test/Test-Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42
+s337846730.755985
+e337846732.906241
+r1
+xProcessPCH
+x/var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Test-Prefix-gbqkijoznhylcohbjxvycelksknz/Test-Prefix.pch.gch
+xTest/Test-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Precompile Test/Test-Prefix.pch44a5c1ca2123b441^d6fde7cc2123b441^---0#0#0#-19%DVTDocumentLocation2@52"file://localhost/Developer/Test/Test/Test-Prefix.pch0000000000000000^1596"ProcessPCH /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Test-Prefix-gbqkijoznhylcohbjxvycelksknz/Test-Prefix.pch.gch Test/Test-Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-generated-files.hmap -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-own-target-headers.hmap -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-all-target-headers.hmap -iquote /Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-project-headers.hmap -I/Developer/Test/build/Debug-iphoneos/include -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/DerivedSources/armv7 -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/DerivedSources -F/Developer/Test/build/Debug-iphoneos -c /Developer/Test/Test/Test-Prefix.pch -o /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Test-Prefix-gbqkijoznhylcohbjxvycelksknz/Test-Prefix.pch.gch
+
+CProcessPCH /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Test-Prefix-hdupqivezywsbrdkyddrlsdyhcdn/Test-Prefix.pch.gch Test/Test-Prefix.pch normal armv6 objective-c com.apple.compilers.llvmgcc42
+s337846730.755981
+e337846732.302256
+r1
+xProcessPCH
+x/var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Test-Prefix-hdupqivezywsbrdkyddrlsdyhcdn/Test-Prefix.pch.gch
+xTest/Test-Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Precompile Test/Test-Prefix.pch05a8c1ca2123b441^575f4dcc2123b441^---0#0#0#-19%DVTDocumentLocation2@52"file://localhost/Developer/Test/Test/Test-Prefix.pch0000000000000000^1596"ProcessPCH /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Test-Prefix-hdupqivezywsbrdkyddrlsdyhcdn/Test-Prefix.pch.gch Test/Test-Prefix.pch normal armv6 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-generated-files.hmap -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-own-target-headers.hmap -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-all-target-headers.hmap -iquote /Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test-project-headers.hmap -I/Developer/Test/build/Debug-iphoneos/include -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/DerivedSources/armv6 -I/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/DerivedSources -F/Developer/Test/build/Debug-iphoneos -c /Developer/Test/Test/Test-Prefix.pch -o /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Test-Prefix-hdupqivezywsbrdkyddrlsdyhcdn/Test-Prefix.pch.gch
+
+CProcessProductPackaging "/Users/aditya15417/Library/MobileDevice/Provisioning Profiles/03022131-34A8-47F6-B64D-506EBEBF069A.mobileprovision" /Developer/Test/build/Debug-iphoneos/Test.app/embedded.mobileprovision
+s337846738.622930
+e337846738.628205
+r1
+xProcessProductPackaging
+x/Users/aditya15417/Library/MobileDevice/Provisioning Profiles/03022131-34A8-47F6-B64D-506EBEBF069A.mobileprovision
+x/Developer/Test/build/Debug-iphoneos/Test.app/embedded.mobileprovision
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection195"ProcessProductPackaging "/Users/aditya15417/Library/MobileDevice/Provisioning Profiles/03022131-34A8-47F6-B64D-506EBEBF069A.mobileprovision" build/Debug-iphoneos/Test.app/embedded.mobileprovision658c9fd22123b441^46d0a0d22123b441^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Developer/Test/build/Debug-iphoneos/Test.app/embedded.mobileprovision0000000000000000^570"ProcessProductPackaging "/Users/aditya15417/Library/MobileDevice/Provisioning Profiles/03022131-34A8-47F6-B64D-506EBEBF069A.mobileprovision" build/Debug-iphoneos/Test.app/embedded.mobileprovision    cd /Developer/Test    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility "/Users/aditya15417/Library/MobileDevice/Provisioning Profiles/03022131-34A8-47F6-B64D-506EBEBF069A.mobileprovision" -o /Developer/Test/build/Debug-iphoneos/Test.app/embedded.mobileprovision
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist /Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test.xcent
+s337846738.699330
+e337846738.710009
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+x/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test.xcent
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection166"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist build/Test.build/Debug-iphoneos/Test.build/Test.xcente719b3d22123b441^f8c5b5d22123b441^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test.xcent00f43803dfffdf42^538"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist build/Test.build/Debug-iphoneos/Test.build/Test.xcent    cd /Developer/Test    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist -entitlements -format xml -o /Developer/Test/build/Test.build/Debug-iphoneos/Test.build/Test.xcent
+
+CTouch /Developer/Test/build/Debug-iphoneos/Test.app
+s337846738.636072
+e337846738.691011
+r1
+xTouch
+x/Developer/Test/build/Debug-iphoneos/Test.app
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Touch /Developer/Test/build/Debug-iphoneos/Test.appb212a3d22123b441^b8e4b0d22123b441^---0#0#0#--251"Touch build/Debug-iphoneos/Test.app    cd /Developer/Test    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Developer/Test/build/Debug-iphoneos/Test.app
+

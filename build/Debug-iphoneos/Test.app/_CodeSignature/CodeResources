@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>files</key>
+	<dict>
+		<key>CustomNavigationBar.nib</key>
+		<data>
+		zH9eevfZ1wIn+VRiqdGOKzZ8av8=
+		</data>
+		<key>MapViewController.nib</key>
+		<data>
+		YL/B9UMiOtJEk8DfryJFxmcFG20=
+		</data>
+		<key>PkgInfo</key>
+		<data>
+		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>ProfileViewController.nib</key>
+		<data>
+		FySAIDkkrEqZId/3y1lm8hTIY+M=
+		</data>
+		<key>embedded.mobileprovision</key>
+		<data>
+		OKVRT6J8ZjXnXtdnm7sMNm1fyng=
+		</data>
+		<key>en.lproj/InfoPlist.strings</key>
+		<data>
+		zmV6UqBSo6r1NOz798vd5O4zTBA=
+		</data>
+		<key>en.lproj/MainWindow.nib</key>
+		<data>
+		BvmW09g6X3ipQeo2xw7tuiIX+GE=
+		</data>
+		<key>en.lproj/TestViewController.nib</key>
+		<data>
+		kJ98wSa5+93A+O4DtISsmN7Ighc=
+		</data>
+		<key>gradient.png</key>
+		<data>
+		UXfbpX6NYXNiTQSowoHbxEWa2Wo=
+		</data>
+	</dict>
+	<key>rules</key>
+	<dict>
+		<key>.*</key>
+		<true/>
+		<key>Info.plist</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
+		</dict>
+		<key>ResourceRules.plist</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>100</real>
+		</dict>
+	</dict>
+</dict>
+</plist>
